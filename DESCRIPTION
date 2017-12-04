@@ -1,0 +1,11 @@
+Package: emojidata
+Title: dataset of all v5.0 emoji
+Version: 0.1.0
+Author: Taikgun Song, Heike Hofmann
+Maintainer: Taikgun Song <songt@iastate.edu>
+Description: v5.0 emoji dataset from https://unicode.org/emoji/charts/full-emoji-list.html website with images.
+License: CC0
+Depends: R (>= 2.10)
+VignetteBuilder: knitr
+LazyData: true
+RoxygenNote: 6.0.1

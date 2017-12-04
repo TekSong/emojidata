@@ -1,0 +1,44 @@
+---
+title: "emojidata package"
+author: "Taikgun Song"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include=F}
+library(emojidata)
+```
+
+# Data: emoji_v5.0
+
+The data of the current package comes from [`Emoji List v5.0`](http://www.unicode.org/emoji/charts/emoji-list.html). The table from the web page is contained in `data(emoji_v5.0)`. The data set consist of the following information:
+
+ * emoji number
+ * emoji Unicode
+ * emoji name
+ * Three hierarchical categories of Emoji.
+    cat1 being the largest, cat 2 is a sub category of cat1, and so on.
+ * emoji keyword
+ * emoji image in png
+
+```{r, eval=F}
+library(emojidata)
+data("emojidata")
+head(emojidata)
+```
+
+# Data: loec
+
+Loec stands for 'list of emoji categories'.
+Not an official category from the unicode.org.
+Categorized by the author for his own research.
+
+
+
+```{r, eval=F}
+data("loec")
+```
