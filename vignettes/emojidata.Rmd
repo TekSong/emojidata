@@ -15,7 +15,7 @@ library(emojidata)
 
 # Data: emoji_v5.0
 
-The data of the current package comes from [`Emoji List v5.0`](http://www.unicode.org/emoji/charts/emoji-list.html). The table from the web page is contained in `data(emoji_v5.0)`. The data set consist of the following information:
+The data of the current package comes from [`Emoji List v5.0`](http://www.unicode.org/emoji/charts/emoji-list.html). The table from the web page is contained in `data(emojidata)`. The data set consist of the following information:
 
  * emoji number
  * emoji Unicode
@@ -26,17 +26,14 @@ The data of the current package comes from [`Emoji List v5.0`](http://www.unicod
  * emoji image in png
 
 ```{r, eval=F}
-library(emojidata)
 data("emojidata")
-head(emojidata)
 ```
+
 
 # Data: loec
 
-Loec stands for 'list of emoji categories'.
-Not an official category from the unicode.org.
-Categorized by the author for his own research.
-
+loec stands for 'list of emoji categories'.
+Not an official categories from the unicode.org, please use the `data(emojidata)` for the official categories. Categories in `data(loec)` was categorized by the author for his own research.
 
 
 ```{r, eval=F}

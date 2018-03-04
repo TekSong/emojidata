@@ -4,11 +4,5 @@
 #' Not an official way to categorize emoji.
 #' Arbitrary categorization done by the author for his own research.
 #'
-#' @name loec
-#' @docType package
-#'
-#'
-#'
-#'
-#' @keywords emoji categories
-NULL
+#'@format A list of plausible topics and its emoji keywords:
+"loec"
